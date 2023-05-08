@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset ="utf-8">
+    <title>Brain Tumour Detection</title>
+    <link rel = "stylesheet" href="https://app.staticsave.com/stylescss/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+     
+    
+</head>
+<body>
+<div class = "top">
+    <h1 style="text-align:center">Brain tumour detection</h1>
+    <h3 style="text-align:center" >upload Scan Image here:</h3>
+    <form class="form-control" action="/upload", method="post" enctype="multipart/form-data">
+     <input type="file"  accept="image/png, image/jpeg" name = "given_img">    
+
+     <div>
+       
+       <input class="btn" type="submit" value="Submit">
+     </form>
+     </div>
+
+     
+</div>
+  <div class="middle">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        {{ message }}
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <!--add custom content with inheritance-->
+        {% block content %}
+        {% endblock %}
+    </div>
+<div class = "middle">
+    <h2>What is this?</h2>
+    <p>This is a website for brain tumour detection, an algorithm based on deep neural networks.Upload scanned brain image here and the DNN model will
+        predict if the person has brain tumour.
+    </p>
+    <p>If you are interested in more details and implementation, check out our github profiles!</p>
+
+</div>
+<div class="bottom">
+    <a class="footer-link" href="https://www.linkedin.com/in/hruthik-chevuri-1307491a3/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/Hruthik14160773">Twitter</a>
+    <a class="footer-link" href="https://github.com/ChakradarReddy/BrainTumour">Github</a>
+    <h4>Who are we?</h4>
+    <p>We are Hruthik Chevuri and Chakradar Reddy, both studying engineering in IIIT Bangalore. This is our project for the SPE course.
+    </p>
+    <p class = "copyright">© 2022 Hruthik and Chakradar</p>
+  </div>
+
+</body>
+</html>

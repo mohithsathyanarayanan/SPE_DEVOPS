@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+</style>
+    <meta charset ="utf-8">
+    <title>Brain tumour detection</title>
+    <link rel = "stylesheet" href="https://app.staticsave.com/stylescss/styles.css">
+
+    <!--<link rel = "stylesheet" href="css/styles.css"> -->
+    
+    
+</head>
+<body>
+<div class = "top">
+    <h1 style="text-align:center">Result of query image is displayed below</h1>
+    
+  {% for image_name in image_names %}
+
+  <img src = " {{url_for('static', filename = image_name)}} ">
+
+  {% endfor %}
+  <h1>{{ans}}</h1>
+</div>
+
+
+
+</body>
+</html>

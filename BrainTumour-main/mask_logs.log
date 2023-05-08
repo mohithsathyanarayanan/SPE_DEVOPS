@@ -1,0 +1,28 @@
+2022-05-04 23:05:35,442 Prediction of Img 1:- 0 
+2022-05-04 23:05:35,685 Prediction of Img 2:- 1 
+2022-05-04 23:05:35,934 Prediction of Img 3:- 0 
+2022-05-04 23:05:36,208 Prediction of Img 4 is :- 0 
+2022-05-04 23:05:36,450 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f16f43cf670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-04 23:05:36,453 Prediction of Img 5:- 0 
+2022-05-04 23:05:36,702 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f170c2421f0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-04 23:05:36,704 Prediction of Img 6:- 1 
+2022-05-04 23:05:37,001 Prediction of Img 7:- 0 
+2022-05-04 23:06:38,298  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-07 22:25:23,341 Prediction of Img 1:- 0 
+2022-05-07 22:25:23,533 Prediction of Img 2:- 1 
+2022-05-07 22:25:23,729 Prediction of Img 3:- 0 
+2022-05-07 22:25:23,893 Prediction of Img 4 is :- 0 
+2022-05-07 22:25:24,056 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fac7402a550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:25:24,058 Prediction of Img 5:- 0 
+2022-05-07 22:25:24,218 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fac5c42f820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:25:24,220 Prediction of Img 6:- 1 
+2022-05-07 22:25:24,407 Prediction of Img 7:- 0 
+2022-05-07 22:26:28,816 Prediction of Img 1:- 0 
+2022-05-07 22:26:28,967 Prediction of Img 2:- 1 
+2022-05-07 22:26:29,116 Prediction of Img 3:- 0 
+2022-05-07 22:26:29,278 Prediction of Img 4 is :- 0 
+2022-05-07 22:26:29,438 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f0108035550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:26:29,439 Prediction of Img 5:- 0 
+2022-05-07 22:26:29,591 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f0100481820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:26:29,593 Prediction of Img 6:- 1 
+2022-05-07 22:26:29,764 Prediction of Img 7:- 0 
