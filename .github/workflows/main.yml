@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python 3.6
       uses: actions/setup-python@v2
       with:
-        python-version: 3.6
+        python-version: 3.12
 
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
