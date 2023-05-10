@@ -4,6 +4,7 @@
 name: Python breast cancer detection
 
 on:
+  workflow_dispatch
   push:
     branches: [ main ]
   pull_request:
