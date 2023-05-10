@@ -27,7 +27,7 @@ jobs:
       with:
         image: mohith1803/v1
         tag: latest
-        registry: https://hub.docker.com/
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PSWD }} 
 
