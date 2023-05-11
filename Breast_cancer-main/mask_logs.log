@@ -1,0 +1,83 @@
+2022-05-04 23:05:35,442 Prediction of Img 1:- 0 
+2022-05-04 23:05:35,685 Prediction of Img 2:- 1 
+2022-05-04 23:05:35,934 Prediction of Img 3:- 0 
+2022-05-04 23:05:36,208 Prediction of Img 4 is :- 0 
+2022-05-04 23:05:36,450 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f16f43cf670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-04 23:05:36,453 Prediction of Img 5:- 0 
+2022-05-04 23:05:36,702 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f170c2421f0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-04 23:05:36,704 Prediction of Img 6:- 1 
+2022-05-04 23:05:37,001 Prediction of Img 7:- 0 
+2022-05-04 23:06:38,298  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-07 22:25:23,341 Prediction of Img 1:- 0 
+2022-05-07 22:25:23,533 Prediction of Img 2:- 1 
+2022-05-07 22:25:23,729 Prediction of Img 3:- 0 
+2022-05-07 22:25:23,893 Prediction of Img 4 is :- 0 
+2022-05-07 22:25:24,056 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fac7402a550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:25:24,058 Prediction of Img 5:- 0 
+2022-05-07 22:25:24,218 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fac5c42f820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:25:24,220 Prediction of Img 6:- 1 
+2022-05-07 22:25:24,407 Prediction of Img 7:- 0 
+2022-05-07 22:26:28,816 Prediction of Img 1:- 0 
+2022-05-07 22:26:28,967 Prediction of Img 2:- 1 
+2022-05-07 22:26:29,116 Prediction of Img 3:- 0 
+2022-05-07 22:26:29,278 Prediction of Img 4 is :- 0 
+2022-05-07 22:26:29,438 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f0108035550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:26:29,439 Prediction of Img 5:- 0 
+2022-05-07 22:26:29,591 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f0100481820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2022-05-07 22:26:29,593 Prediction of Img 6:- 1 
+2022-05-07 22:26:29,764 Prediction of Img 7:- 0 
+2023-05-10 12:48:26,233 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-05-10 12:48:26,263 [33mPress CTRL+C to quit[0m
+2023-05-10 12:55:26,380 127.0.0.1 - - [10/May/2023 12:55:26] "GET / HTTP/1.1" 200 -
+2023-05-10 12:55:27,572 127.0.0.1 - - [10/May/2023 12:55:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-10 12:55:57,473 127.0.0.1 - - [10/May/2023 12:55:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-10 12:56:28,975 Prediction of given image is:- 0 
+2023-05-10 12:56:29,002 127.0.0.1 - - [10/May/2023 12:56:29] "POST /upload HTTP/1.1" 200 -
+2023-05-10 12:56:29,178 127.0.0.1 - - [10/May/2023 12:56:29] "GET /static/given_img.png HTTP/1.1" 200 -
+2023-05-10 12:59:16,161 Prediction of given image is:- 0 
+2023-05-10 12:59:16,162 127.0.0.1 - - [10/May/2023 12:59:16] "POST /upload HTTP/1.1" 200 -
+2023-05-10 12:59:16,186 127.0.0.1 - - [10/May/2023 12:59:16] "GET /static/given_img.png HTTP/1.1" 200 -
+2023-05-10 13:15:07,369 127.0.0.1 - - [10/May/2023 13:15:07] code 400, message Bad request version ('\x7fÏ\x8f¢xzûõP\x179ò\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2023-05-10 13:15:07,401 127.0.0.1 - - [10/May/2023 13:15:07] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÌÎ}wÛ!Ý»òj¾uªpL\x13\x1f}°MbPÀ\x13Ö\x02\x81ú[Ç"¹ &ôqèÃäÁ|nØ\x96\x0bµ%q\x84£ Ð\x1d\x7fÏ\x8f¢xzûõP\x179ò\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+2023-05-10 13:15:18,853 127.0.0.1 - - [10/May/2023 13:15:18] "GET / HTTP/1.1" 200 -
+2023-05-10 13:15:50,653 Prediction of given image is:- 1 
+2023-05-10 13:15:50,654 127.0.0.1 - - [10/May/2023 13:15:50] "POST /upload HTTP/1.1" 200 -
+2023-05-10 13:15:50,760 127.0.0.1 - - [10/May/2023 13:15:50] "GET /static/given_img.png HTTP/1.1" 200 -
+2023-05-10 13:16:34,842 127.0.0.1 - - [10/May/2023 13:16:34] "GET / HTTP/1.1" 200 -
+2023-05-10 23:39:24,927 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-05-10 23:39:24,993 [33mPress CTRL+C to quit[0m
+2023-05-10 23:40:45,935 127.0.0.1 - - [10/May/2023 23:40:45] "GET / HTTP/1.1" 200 -
+2023-05-10 23:40:50,281 127.0.0.1 - - [10/May/2023 23:40:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-11 12:28:30,046 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-05-11 12:28:30,129 [33mPress CTRL+C to quit[0m
+2023-05-11 12:29:07,204 127.0.0.1 - - [11/May/2023 12:29:07] "GET / HTTP/1.1" 200 -
+2023-05-11 12:29:56,934 Prediction of given image is:- 1 
+2023-05-11 12:29:56,985 127.0.0.1 - - [11/May/2023 12:29:56] "POST /upload HTTP/1.1" 200 -
+2023-05-11 12:30:00,179 127.0.0.1 - - [11/May/2023 12:30:00] "GET /static/given_img.png HTTP/1.1" 200 -
+2023-05-11 12:30:10,849 127.0.0.1 - - [11/May/2023 12:30:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-11 12:42:03,099 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-05-11 12:42:03,187 [33mPress CTRL+C to quit[0m
+2023-05-11 12:42:20,509 127.0.0.1 - - [11/May/2023 12:42:20] "GET / HTTP/1.1" 200 -
+2023-05-11 12:43:01,477 127.0.0.1 - - [11/May/2023 12:43:01] "GET / HTTP/1.1" 200 -
+2023-05-11 12:44:11,090 Prediction of given image is:- 1 
+2023-05-11 12:44:11,132 127.0.0.1 - - [11/May/2023 12:44:11] "POST /upload HTTP/1.1" 200 -
+2023-05-11 12:44:11,461 127.0.0.1 - - [11/May/2023 12:44:11] "GET /static/given_img.png HTTP/1.1" 200 -
+2023-05-11 12:49:44,177 127.0.0.1 - - [11/May/2023 12:49:44] "GET / HTTP/1.1" 200 -
+2023-05-11 12:50:09,908 Prediction of given image is:- 0 
+2023-05-11 12:50:09,918 127.0.0.1 - - [11/May/2023 12:50:09] "POST /upload HTTP/1.1" 200 -
+2023-05-11 12:50:09,945 127.0.0.1 - - [11/May/2023 12:50:09] "GET /static/given_img.png HTTP/1.1" 200 -
+2023-05-11 13:01:47,886 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-05-11 13:01:47,886 [33mPress CTRL+C to quit[0m
+2023-05-11 13:01:58,826 127.0.0.1 - - [11/May/2023 13:01:58] "GET / HTTP/1.1" 200 -
+2023-05-11 13:02:44,581 Prediction of given image is:- 0 
+2023-05-11 13:02:44,583 127.0.0.1 - - [11/May/2023 13:02:44] "POST /upload HTTP/1.1" 200 -
+2023-05-11 13:02:44,612 127.0.0.1 - - [11/May/2023 13:02:44] "GET /static/given_img.png HTTP/1.1" 200 -
+2023-05-11 13:50:29,782 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-05-11 13:50:29,798 [33mPress CTRL+C to quit[0m
+2023-05-11 13:50:40,897 127.0.0.1 - - [11/May/2023 13:50:40] "GET / HTTP/1.1" 200 -
