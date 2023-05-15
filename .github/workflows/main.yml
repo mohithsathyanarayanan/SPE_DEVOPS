@@ -1,7 +1,6 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: Python breast cancer detection
+name: Python brain tumour detection
 
 on:
   push:
@@ -17,20 +16,31 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.1
+    - name: Set up Python 3.6
       uses: actions/setup-python@v2
       with:
-        python-version: 3.10.10
+        python-version: 3.6
 
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: mohith1803/v1
+        image: chakradar/braintumour
         tag: latest
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PSWD }} 
+        password: ${{ secrets.DOCKER_PASSWORD }} 
 
   
+                   
+    - name: Deploy to heroku        
+      uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "breast-cancer detection"
+        heroku_email: "mohith2018@gmail.com"
+        usedocker: true
+        
+    - name: ELK monitoring using filebeat
+      run: docker-compose up -d
                    
     
